@@ -13,7 +13,7 @@ function set_inbox_visible(vis) {
 }
 
 function hide_if_inbox() {
-  set_inbox_visible(is_visible || document.location.href !== 'https://mail.google.com/mail/u/0/#inbox');
+  set_inbox_visible(is_visible || !document.location.href.startsWith('https://mail.google.com/mail/u/0/#inbox'));
 }
 
 class ToggleInboxButton {
