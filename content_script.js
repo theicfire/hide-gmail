@@ -40,10 +40,6 @@ class ToggleInboxButton {
     this.wrapper = wrapper;
     this.button = button;
   }
-
-  changeText(text) {
-    this.button.innerHTML = text;
-  }
 }
 
 let is_visible = false;
