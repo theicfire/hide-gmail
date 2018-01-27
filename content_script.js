@@ -4,11 +4,11 @@ function set_inbox_visible(vis) {
     if (vis) {
       gmail_container.style.display = 'block';
       document.querySelector('.G-tF').style.visibility = 'visible';
-      button.changeText('Hide Inbox');
+      button.button.innerHTML = 'Hide Inbox';
     } else {
       gmail_container.style.display = 'none';
       document.querySelector('.G-tF').style.visibility = 'hidden';
-      button.changeText('Show Inbox');
+      button.button.innerHTML = 'Show Inbox';
     }
 }
 

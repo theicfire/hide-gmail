@@ -6,7 +6,6 @@
 
   "content_scripts": [
     {
-      "all_frames": true,
       "js": ["content_script.js"],
       "css": ["main.css"],
       "matches": ["https://mail.google.com/mail/*"],
