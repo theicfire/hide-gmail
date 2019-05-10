@@ -58,6 +58,6 @@ let interval = setInterval(() => {
   let gmail_container = document.querySelector('.aeF');
   if (document.querySelector('.G-tF')) {
     clearInterval(interval);
-    document.getElementById(':5').prepend(button.wrapper);
+    document.getElementById(':4').prepend(button.wrapper);
   }
 }, 100);
